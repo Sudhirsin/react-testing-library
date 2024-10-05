@@ -49,3 +49,13 @@ Jest
 - watch
   -- watch mode is an option that we can pass to jest to watch files that have changed since the last commit and execute tests related only to those changed files
   -- An optimization designed to make your tests run fast regardless of how many tests you have
+
+Filter the test
+yarn test will show the other tags
+a - run the all the files
+o - run the test in changed file
+p - filter the filename ex. App
+t - filter by test name ex. name
+
+test.only()
+test.skip() // skip executing the test
